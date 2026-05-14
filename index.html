@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>뉴스 신뢰도 판별기 — 팩트와 감정조작을 구분하세요</title>
-  <meta name="description" content="뉴스 기사의 모든 문장을 팩트·의견·감정조작으로 실시간 분류하는 무료 크롬 익스텐션">
-  <meta property="og:title" content="뉴스 신뢰도 판별기">
-  <meta property="og:description" content="팩트와 감정조작을 구분하세요. 무료 크롬 익스텐션.">
+  <title>뉴스 표현 분석기 — 팩트·의견·감정표현을 구분하세요</title>
+  <meta name="description" content="뉴스 기사의 문장을 팩트·의견·감정표현으로 분리해 읽도록 돕는 무료 크롬 익스텐션">
+  <meta property="og:title" content="뉴스 표현 분석기">
+  <meta property="og:description" content="팩트·의견·감정표현을 구분하세요. 무료 크롬 익스텐션.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -386,7 +386,7 @@
 
 <!-- NAV -->
 <nav id="nav">
-  <div class="nav-logo">🔍 뉴스 판별기</div>
+  <div class="nav-logo">🔍 뉴스 표현 분석기</div>
   <a href="#install" class="nav-cta">무료 설치하기</a>
 </nav>
 
@@ -399,12 +399,12 @@
 
   <h1>
     뉴스 속<br>
-    <em>거짓말</em>을<br>
-    찾아드립니다
+    <em>표현</em>을<br>
+    분리합니다
   </h1>
 
   <p class="hero-sub">
-    기사의 모든 문장을 팩트·의견·감정조작으로<br>
+    기사의 문장을 팩트·의견·감정표현으로<br>
     실시간 색상 분류합니다
   </p>
 
@@ -444,7 +444,7 @@
       <div style="margin-top:20px;display:flex;gap:16px;font-family:'DM Sans',sans-serif;font-size:12px;">
         <span style="color:#4caf82">● 팩트 2</span>
         <span style="color:#e0a050">● 의견 1</span>
-        <span style="color:#e05c5c">● 감정조작 1</span>
+        <span style="color:#e05c5c">● 감정표현 1</span>
       </div>
     </div>
   </div>
@@ -480,7 +480,7 @@
     <div class="legend-card">
       <div class="legend-icon lg-fact">🟢</div>
       <h3>팩트 기반</h3>
-      <p>공식 기관 발표, 검증된 수치, 날짜·통계 데이터가 포함된 문장입니다. 신뢰할 수 있는 정보의 기반입니다.</p>
+      <p>공식 기관 발표, 수치, 날짜·통계 데이터가 포함된 문장입니다. 실제 진위가 검증됐다는 뜻은 아니며 근거 표현이 있다는 의미입니다.</p>
     </div>
     <div class="legend-card">
       <div class="legend-icon lg-opinion">🟡</div>
@@ -489,8 +489,8 @@
     </div>
     <div class="legend-card">
       <div class="legend-icon lg-manip">🔴</div>
-      <h3>감정 조작</h3>
-      <p>충격·경악·분노 등 감정을 자극하거나, 낙인찍기·극단적 표현으로 독자의 판단을 흐리는 문장입니다.</p>
+      <h3>감정 자극</h3>
+      <p>충격·경악·분노 등 감정을 자극하거나, 낙인찍기·극단적 표현으로 판단에 영향을 줄 수 있는 문장입니다.</p>
     </div>
     <div class="legend-card">
       <div class="legend-icon lg-neutral">⬜</div>
@@ -547,7 +547,7 @@
 
 <!-- FOOTER -->
 <footer>
-  <span>뉴스 신뢰도 판별기 v2.0</span>
+  <span>뉴스 표현 분석기 v2.0</span>
   <span>오픈소스 · MIT License</span>
   <a href="https://novil134-gif.github.io/news-checker-extension/news-checker-extension.zip"
      style="color:#444;text-decoration:none">GitHub →</a>
